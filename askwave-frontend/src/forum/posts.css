@@ -1,0 +1,41 @@
+.root {
+    --primary-color: #38B6FF;
+    --primary-light: #9ADAFF;
+    --secondary-color: #004AAD;
+    --secondary-light: #216CCF;
+    --text-color: black;
+    --background-color: white;
+}
+
+.post {
+    border-style: solid;
+    border-color: var(--primary-light);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    width: 700px;
+    text-align: justify;
+    gap: 100px;
+    cursor: pointer;
+}
+
+.post-reaction {
+    display: flex;
+}
+
+.post-category {
+    color: var(--secondary-color);
+    background-color: var(--primary-light);
+    width: max-content;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.edit-button, .delete-button {
+    color: #38B6FF;
+    background-color: #004AAD;
+}
+
+.post-custom {
+    margin-top: 75px;
+}

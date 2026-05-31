@@ -1,0 +1,43 @@
+.root {
+  --primary-color: #38B6FF;
+  --primary-light: #9ADAFF;
+  --secondary-color: #004AAD;
+  --secondary-light: #216CCF;
+  --text-color: black;
+  --background-color: white;
+}
+
+.App {
+  text-align: center;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.navbar {
+  background-color: var(--primary-light);
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+.nav-link {
+  justify-content:space-between;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+
+button {
+  border: none;
+  margin-top: 10px;
+  width: fit-content;
+  align-self: baseline;
+  padding: 5px;
+  border-radius: 5px;
+}

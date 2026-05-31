@@ -1,0 +1,32 @@
+.root {
+    --primary-color: #38B6FF;
+    --primary-light: #9ADAFF;
+    --secondary-color: #004AAD;
+    --secondary-light: #216CCF;
+    --text-color: black;
+    --background-color: white;
+}
+
+.your-post {
+    border-style: solid;
+    border-color: var(--primary-light);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    width: 700px;
+    text-align: justify;
+    gap: 100px;
+}
+
+.your-post-reaction {
+    display: flex;
+    color: var(--secondary-color);
+    gap: 15px;
+}
+
+.your-post-custom Button {
+    align-self: center;
+    margin-right: 10px;
+    background-color: var(--secondary-light);
+    color: var(--primary-light);
+}

@@ -1,0 +1,84 @@
+.root {
+    --primary-color: #38B6FF;
+    --primary-light: #9ADAFF;
+    --secondary-color: #004AAD;
+    --secondary-light: #216CCF;
+    --text-color: black;
+    --background-color: white;
+}
+
+* {
+  font-family: monospace;
+}
+
+.Home {
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+.Main {
+    display: flex;
+}
+  
+.LogoContainer {
+  margin-right: 20px;
+}
+
+.LeftBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 100px;
+  margin-left: 10px;
+}
+
+.cat {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.cat:hover {
+  text-decoration: underline;
+}
+
+.categories {
+  text-align: left;
+  margin-left: 20px;
+}
+
+h3 {
+  color: var(--secondary-color);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.Link {
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.WelcomeBanner {
+  text-align: right;
+}
+
+.createPostForm {
+  align-self: center;
+  width: 900px;
+  height: 2000px;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+  
+.button{
+  width: max-content;
+  align-self: flex-start;
+}
+
+.expiredSessionTitle {
+  text-align: center;
+}

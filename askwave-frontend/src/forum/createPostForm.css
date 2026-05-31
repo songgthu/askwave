@@ -1,0 +1,53 @@
+.root {
+    --primary-color: #38B6FF;
+    --primary-light: #9ADAFF;
+    --secondary-color: #004AAD;
+    --secondary-light: #216CCF;
+    --text-color: black;
+    --background-color: white;
+}
+
+.createPostForm {
+    font-family: monospace;
+    width: 80%;
+    height: 80%;
+    align-self: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%; 
+    height: 100px; 
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.postTitle {
+    width: 100%; 
+}
+
+button {
+    border: none;
+    margin-top: 10px;
+    width: 100px;
+    align-self: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.createPostTitle {
+    text-align: center;
+}
+
+.close {
+    cursor: pointer;
+    color: var(--background-color);
+}
+
+.close:hover {
+    color: var(--secondary-color);
+}

@@ -1,0 +1,41 @@
+.root {
+    --primary-color: #38B6FF;
+    --primary-light: #9ADAFF;
+    --secondary-color: #004AAD;
+    --secondary-light: #216CCF;
+    --text-color: black;
+    --background-color: white;
+}
+
+form {
+  background-color: var(--primary-light);
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  width: auto;
+}
+
+input {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid var(--primary-light);
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+Button {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+Button:hover {
+  background-color: var(--secondary-light);
+}
